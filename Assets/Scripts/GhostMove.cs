@@ -25,7 +25,7 @@ public class GhostMove : MonoBehaviour
         }
             Vector2 direction = waypoints[current].position - transform.position;
             GetComponent<Animator>().SetFloat("DirX", direction.x);
-            GetComponent<Animator>() > SetFloat("DirY", direction.y);
+            GetComponent<Animator>().SetFloat("DirY", direction.y);
         
     }
     
